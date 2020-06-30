@@ -1,105 +1,64 @@
-#page-container{
-    position: absolute;     
-    margin: 0 auto;  
-}
-
-.navbar-brand{
-    background-color: darkturquoise;
-    color: white;
-}
-
-.navbar-brand h1{
-    color: white;
-}
-
-a.nav-link{
-    color: black;
-}
-
-body{
-    background-image: url("assets/texture\ background.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    width: 100%;
-}
-
-form{
-    width:700px;
-    height: 650px;
-    background-color: white;
-    margin-left: 5%;
-    margin-top: 3%;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.folio{
-    width: 675px;
-    height: 700px;
-    background-color: white;
-    margin-left: 5%;
-    margin-top: 3%;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 30px;
-}
-
-.col img{
-    width: 150px;
-    height: 240px;
-    padding-top: 50px;
-}
-
-.folio-pic{
-    position: relative;
-    z-index: 0;
-}
-
-.btn {
-    position: absolute;
-    bottom: 0;
-    z-index: 1;
-    left: 15px;
-    width: 150px;
-}
-
-h1{
-  color: darkturquoise;  
-}
-
-.btn .btn-primary {
-    background-color: darkturquoise;
-    border: none;
-    color: white;
-    padding: 10px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color: #eee;
+    color: #444;
     cursor: pointer;
-  }
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
 
-  #page-container footer{
-      display: flex;
-      background-color: darkgray;
-      margin-top: 50px;
-      height: 70px;
-      width: 100%;
-      border-top: 30px darkturquoise;
-      position: fixed;
-      bottom: 0;
-  }
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+    background-color: #ccc;
+}
 
- 
-/*
-  @media only screen and (max-width: 768px) {
+p.name {
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.linkedInImg {
+    width: 50px;
+    float: right;
+}
+
+  /* Style the collapsible content. Note: hidden by default */
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+  /*Style dropdown arrow for expandable header*/
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+#profile-pic {
     
-    [class*="col-"] {
-        width: 100%;
-    }
-    [class="folio"] {
-        margin-right: 20px;
-    }
+    border-radius: 50%;
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: 400px;
   }
-  */
+  
