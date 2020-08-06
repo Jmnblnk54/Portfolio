@@ -52,11 +52,6 @@ li {
     transform: translateX(-50%);
 }
 
-.down {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-}
-
 #profile-pic {
     
     border-radius: 50%;
@@ -73,8 +68,6 @@ li {
     padding: 20px;
     opacity: 1;
     display: block;
-    transition: .5s ease;
-    backface-visibility: hidden;
 }
 /*
 .media:hover {
@@ -101,9 +94,3 @@ li {
     opacity: 1;
   }
   
-  .button {
-    background-color: #4CAF50;
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px;
-  }
