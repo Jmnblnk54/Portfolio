@@ -36,6 +36,7 @@ li {
     display: none;
     overflow: hidden;
     background-color: #f1f1f1;
+    /* margin: 5px; */
 }
 
   /*Style dropdown arrow for expandable header*/
@@ -69,12 +70,12 @@ li {
     opacity: 1;
     display: block;
 }
-/*
+
 .media:hover {
     background-color: #6c757d!important;
     opacity: .9;
 }
-*/
+
 .middle {
     transition: .5s ease;
     opacity: 0;
@@ -84,6 +85,10 @@ li {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
+  }
+
+  .container {
+    margin: 10px;
   }
   
   .container:hover .image {
