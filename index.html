@@ -17,22 +17,28 @@
     />
     <!--Link stylesheet-->
     <link rel="stylesheet" href="assets/style.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+    crossorigin="anonymous"/>    
     <title>Portfolio of Josh Blank</title>
   </head>
   <body>
     <!--Collapsable Bio and link header-->
-      <button type="button" class="collapsible">
+      <button type="button" class="collapsible arrow down">
         <div class="header">
         <p class="name">Joshua Blank</p>
         <ul class="personalLinks">
         <li><a href="https://www.linkedin.com/in/joshua-blank">
           <img  alt="LinkedIn Logo" src="./assets/LinkedIn Logo.png" class="linkIcon"></a>
           </li>
-        <li><a href=""><img alt="resume icon" src="./assets/ResumeIcon.jpg" class="linkIcon"></a>
+        <li><a href="./assets/linkedResume.pdf"><img alt="resume icon" src="./assets/ResumeIcon.jpg" class="linkIcon"></a>
         </li>
         <li><a href="https://github.com/Jmnblnk54"><img alt="github icon" src="./assets/github icon.png" class="linkIcon"></a>
         </li>
         </ul>
+        <i class="fas fa-chevron-circle-down"></i>
+
+
         </div>
       </button>
     
@@ -41,16 +47,22 @@
         <div class="col">
         <div class="image-cropper">
           <img src="./assets/joshPic.jpg" alt="Joshua Blank" id="profile-pic">
-        </div>  
-      </div class="col">
-        <p id="bioAboutMe">Enter Bio Here</p>
+          
+        </div class="col" id="bioAboutMe">
+          <p class="bio">Energetic self-starter with over 20 years of experience in Marketing, E-commerce, and Product Development.
+          <br>
+          I have worked as a consultant in a wide range of capacities - from business management to educating further technical skills and client relations. My flexibility has allowed me to engage clients on projects ranging from research to strategy, general business processes to complex software implementation. I enjoy being able to participate in multiple levels of a business whether that means coding features or discussing the bigger picture.
+          <br>
+          Specialties: Excellent communicator, innovative brainstormer, tireless problem solver, insatiably curious, technically skilled, people loving, and passionate.</p>
+          </div>
         </div>
       </div>
     </div>
+    </div>
     <!--Boxes to display projects-->
-    <div class="container">
+    <div class="container" id="items-container">
       <div class="row">
-        <div class="col-5">
+        <div class="col-12 col-lg-4">
           <div class="media">
             <div class="container">
               <img src="./assets/Daytripper.JPG" class="align-self-center mr-3 folio-img" alt="Daytripper website screenshot" />
@@ -59,36 +71,26 @@
                 <a class="btn btn-primary" href="https://github.com/Beki-G/Daytripper" role="button">Github</a>
               </div>
             </div>
-            <div class="media-body">
-            </div>
-          </div>
+          </div>  
         </div>
-        <div class="col-5">
+        <div class="col-12 col-lg-4">
           <div class="media">
             <img src="./assets/PWGenerator.JPG" class="align-self-center mr-3 folio-img" alt="password generator screenshot" />
             <div class="middle">
               <a class="btn btn-primary" href="https://jmnblnk54.github.io/PasswordGenerator/" role="button">Deployed</a>
               <a class="btn btn-primary" href="https://github.com/Jmnblnk54/PasswordGenerator" role="button">Github</a>
             </div>
-            <div class="media-body">
-              <h5 class="mt-0"></h5>
-              <p></p>
-              <p class="mb-0"></p>
-            </div>
+            
           </div>
         </div>
-        <div class="col-5">
+        <div class="col-12 col-lg-4">
           <div class="media">
             <img src="./assets/WeatherChecker.JPG" class="align-self-center mr-3 folio-img" alt="weather checker screenshot" />
             <div class="middle">
               <a class="btn btn-primary" href="https://jmnblnk54.github.io/WeatherApp/" role="button">Deployed</a>
               <a class="btn btn-primary" href="https://github.com/Jmnblnk54/WeatherApp" role="button">Github</a>
             </div>
-            <div class="media-body">
-              <h5 class="mt-0"></h5>
-              <p></p>
-              <p class="mb-0"></p>
-            </div>
+            
           </div>
         </div>
       </div>
