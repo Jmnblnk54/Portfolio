@@ -97,6 +97,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-color: black;
 }
 
 #items-container {

@@ -15,6 +15,9 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <!--Link Animate on Scroll-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!--Link stylesheet-->
     <link rel="stylesheet" href="assets/style.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
@@ -60,12 +63,12 @@
     </div>
     </div>
     <!--Boxes to display projects-->
-    <div class="container" id="items-container">
+    <!--Project !-->
+    <div class="container"  data-aos="fade-up-left" id="items-container">
       <div class="row">
-        <div class="col-12 col-lg-4">
+        <div class="col">
           <div class="media">
-            <div class="container">
-              <img src="./assets/Daytripper.JPG" class="align-self-center mr-3 folio-img" alt="Daytripper website screenshot" />
+            <img src="./assets/Daytripper.JPG" class="align-self-center mr-3 folio-img" alt="Daytripper website screenshot" />
               <div class="middle">
                 <a class="btn btn-primary" href="https://beki-g.github.io/Daytripper/" role="button">Deployed</a>
                 <a class="btn btn-primary" href="https://github.com/Beki-G/Daytripper" role="button">Github</a>
@@ -73,28 +76,65 @@
             </div>
           </div>  
         </div>
-        <div class="col-12 col-lg-4">
+      </div>   
+    </div>
+
+    <!--Project 2-->  
+    <div class="container" data-aos="fade-up-right" id="items-container">
+          <div class="col">
+              <div class="media">
+                <img src="./assets/quoteGoatSS.jpg" class="align-self-center mr-3 folio-img" alt="Quote Goat website screenshot" />
+                  <div class="middle">
+                    <a class="btn btn-primary" href="https://quotegoat.herokuapp.com/" role="button">Deployed</a>
+                    <a class="btn btn-primary" href="https://github.com/Beki-G/QuoteGOAT" role="button">Github</a>
+                  </div>
+                </div>  
+          </div>
+    </div>
+    
+
+    <!--Homework 1-->
+    <div class="container" data-aos="fade-up-left" id="items-container">
+      <div id="row">
+        <div class="col">
           <div class="media">
             <img src="./assets/PWGenerator.JPG" class="align-self-center mr-3 folio-img" alt="password generator screenshot" />
             <div class="middle">
               <a class="btn btn-primary" href="https://jmnblnk54.github.io/PasswordGenerator/" role="button">Deployed</a>
               <a class="btn btn-primary" href="https://github.com/Jmnblnk54/PasswordGenerator" role="button">Github</a>
-            </div>
-            
-          </div>
-        </div>
-        <div class="col-12 col-lg-4">
-          <div class="media">
-            <img src="./assets/WeatherChecker.JPG" class="align-self-center mr-3 folio-img" alt="weather checker screenshot" />
-            <div class="middle">
-              <a class="btn btn-primary" href="https://jmnblnk54.github.io/WeatherApp/" role="button">Deployed</a>
-              <a class="btn btn-primary" href="https://github.com/Jmnblnk54/WeatherApp" role="button">Github</a>
-            </div>
-            
+            </div>      
           </div>
         </div>
       </div>
     </div>
+
+    <!--Homework 2-->
+    <div class="container" data-aos="fade-up-right" id="items-container">
+      <div class="col">
+        <div class="media">
+          <img src="./assets/WeatherChecker.JPG" class="align-self-center mr-3 folio-img" alt="weather checker screenshot" />
+          <div class="middle">
+            <a class="btn btn-primary" href="https://jmnblnk54.github.io/WeatherApp/" role="button">Deployed</a>
+            <a class="btn btn-primary" href="https://github.com/Jmnblnk54/WeatherApp" role="button">Github</a>
+          </div>
+        </div>
+      </div>  
+    </div>  
+
+    <!--Homework 3-->    
+    <div class="container" data-aos="fade-up-left" id="items-container">
+      <div class="col">
+        <div class="media">
+          <img src="./assets/Daytripper.JPG" class="align-self-center mr-3 folio-img" alt="Daytripper website screenshot" />
+          <div class="middle">
+            <a class="btn btn-primary" href="https://beki-g.github.io/Daytripper/" role="button">Deployed</a>
+            <a class="btn btn-primary" href="https://github.com/Beki-G/Daytripper" role="button">Github</a>
+          </div>
+        </div>
+      </div>  
+    </div>
+    <!--Animate on Scroll JS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- Optional JavaScript -->
     <script src="assets/folio.js"></script>
@@ -114,5 +154,9 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    <!--Initialize AOS-->
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
