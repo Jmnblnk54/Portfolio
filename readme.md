@@ -2,9 +2,9 @@
     
 ## Description: 
 
-Our task was to create a Weather Dashboard using the third-party API from OpenWeather. 
+Our task was to create a portfolio to showcase our work in the bootcamp. 
 
-* This app can be used to see the latest projects from Josh Blank as well as contact information and resume. There are direct links for the displayed projects to the Github Repo as well as the deployed version from Github.
+* This app can be used to see the latest projects from Josh Blank as well as contact information and resume. There are direct links for the displayed projects to the Github Repo as well as the deployed version from Github. Projects included are Quote Goat, Day Tripper, Weather App, Student Quiz and a Random Password Generator.
   
     
 ## Table of Contents: 
